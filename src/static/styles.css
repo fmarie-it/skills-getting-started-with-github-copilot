@@ -142,3 +142,20 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.participant-chip {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #e0f7fa;
+  color: #00796b;
+  border: 1px solid #b2dfdb;
+  border-radius: 15px;
+  font-size: 14px;
+}
